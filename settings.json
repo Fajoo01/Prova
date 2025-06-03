@@ -9,5 +9,7 @@
     "user_name": "Human",
     "language": "English",
     "chunk_size": 256,
-    "chunk_overlap": 64
+    "chunk_overlap": 64,
+    "api_url": "http://localhost:1865",
+    "api_key": ""
 }

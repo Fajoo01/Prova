@@ -42,6 +42,8 @@ You answer Human with a focus on the following context.
     language: Languages = Languages.English
     chunk_size: int = 256
     chunk_overlap: int = 64
+    api_url: str = "http://localhost:1865"
+    api_key: str = ""
 
     @field_validator("episodic_memory_threshold")
     @classmethod
